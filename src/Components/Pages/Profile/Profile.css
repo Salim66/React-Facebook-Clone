@@ -1,0 +1,36 @@
+.section-profile {
+    height: 70vh;
+}
+
+.section-profile__body {
+    background: #f4f4f4;
+    height: 20vh;
+}
+
+.profile-top__section {
+    height: 50vh;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.profile-top__section img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile-top__details {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 10px;
+}
+
+.profile-top__details a {
+    font-weight: 700;
+}

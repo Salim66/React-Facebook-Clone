@@ -1,0 +1,135 @@
+.section-navbar {
+    padding: 8px 15px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 10px;
+}
+
+.search {
+    position: relative;
+}
+
+.nav-left input {
+    width: 240px;
+    height: 40px;
+    padding: 0 40px;
+    border-radius: 50px;
+    border: none;
+    outline-style: none;
+    background: #f4f4f4;
+}
+
+.search-label {
+    font-weight: 100;
+    color: #999;
+    position: absolute;
+    top: 33%;
+    left: 14px;
+}
+
+.facebook-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    line-height: 35px;
+}
+
+.nav-right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.nav-right a:nth-child(1) {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    line-height: 40px;
+    margin-right: 10px;
+    padding: 0px 5px 0px 3px;
+    border-radius: 50px;
+    transition: .2s;
+
+}
+
+.nav-right a:nth-child(1):hover {
+    background-color:#ecebeb;
+}
+
+.nav-right a:nth-child(1) p {
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.nav-right_a {
+    padding: 10px;
+    width: 50px;
+    background: #ecebeb;
+    border-radius: 50%;
+    line-height: 10px;
+}
+
+.nav-right__two,
+.nav-right__three,
+.nav-right__four,
+.nav-right__five {
+    font-size: 20px;
+}
+
+.icon-menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.icon-menu__list {
+    width: 6rem;
+    line-height: 100%;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .6rem;
+    margin-top: -8px;
+    position: relative;
+}
+
+.icon-menu__list svg {
+    fill: #999;
+}
+
+.icon-menu__list:hover {
+    background: #f4f4f4;
+}
+
+.icon-menu__list .active svg {
+    fill: #1877F2;;
+}
+
+.icon-menu__list .active::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: .2rem;
+    background: #1877F2;;
+    position: absolute;
+    bottom: -.6rem;
+    left: 0;
+    right: 0;
+}
+

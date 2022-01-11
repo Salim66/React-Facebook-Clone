@@ -1,0 +1,166 @@
+.section-login {
+    padding: 160px 0px 190px 0;
+    background: #f4f4f4;
+}
+
+.login-form {
+    border-radius: 20px;
+}
+
+.login-form .card {
+    border-radius: 10px;
+}
+
+.login-form input {
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button.login-button {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 8px 0;
+}
+
+.login-form a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+button.create-button {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 12px 15px;
+    background: #42b72a;
+    border-color: #42b72a;
+    margin: auto;
+    margin-top: 20px;
+    outline-style: none;
+    border: none;
+}
+
+button.create-button:hover,
+button.create-button:focus,
+button.create-button:active {
+    background: #42b72a;
+    border-color: #42b72a;
+    outline-color: #42b72a;
+}
+
+.login-bar {
+    padding: 100px 30px;
+}
+
+.login-bar .login-title {
+    font-weight: 700;
+    font-size: 60px;
+    color: #08c;
+}
+
+.section-login span{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-login .create-link {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.sign-up__title.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.form-gender {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-desc {
+    font-weight: 200;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.form-button button {
+    display: block;
+    color: #FFF;
+    background: #00a400;
+    padding: 4px 60px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.form-button button:hover {
+    display: block;
+    color: #FFF;
+    background: #38a838;
+    padding: 4px 60px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer {
+    padding-top: 15px;
+}
+
+.top-footer ul {
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+    color: #999;
+}
+
+.top-footer ul li a {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.top-middle ul {
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: #999;
+    line-height: 10px;
+}
+
+.top-middle ul li a {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.top-footer ul li a,
+.top-middle ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.top-footer ul li:hover a,
+.top-middle ul li:hover a {
+    color: #999;
+}
+
+.meta-footer {
+    font-weight: 700;
+    font-size: 12px;
+    color: #999;
+}
