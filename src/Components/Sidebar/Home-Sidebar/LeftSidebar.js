@@ -8,7 +8,7 @@ const LeftSidebar = () => {
                 <ul className="left-sidebar__list">
                     <li className="left-sidebar__item">
                         <a href="#" className="left-sidebar__link">
-                            <img src="https://scontent.fdac116-1.fna.fbcdn.net/v/t39.30808-1/cp0/p50x50/270215733_3169984863238159_8299662076591110375_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=7206a8&_nc_eui2=AeFmScv5H0RYwKL5MKPFWkM0AiMd2x6SbsYCIx3bHpJuxkhGNkI9-11UFYsJz7pqLE_4aN0VC8bzUT28Q9ienMdB&_nc_ohc=82WLD5Y79wUAX9T5nGz&_nc_ht=scontent.fdac116-1.fna&oh=00_AT9nGqhjAXQJCUNC6AMsHnzZJEwIPZMufZKDPy562aGugw&oe=61DD7EFF" alt="profile-small-image" className='profile-small-image' />
+                            <img src="https://scontent-ccu1-1.xx.fbcdn.net/v/t39.30808-1/cp0/p40x40/270215733_3169984863238159_8299662076591110375_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=dbb9e7&_nc_eui2=AeFmScv5H0RYwKL5MKPFWkM0AiMd2x6SbsYCIx3bHpJuxkhGNkI9-11UFYsJz7pqLE_4aN0VC8bzUT28Q9ienMdB&_nc_ohc=Zrn5jG-ArasAX9Sep9B&_nc_ht=scontent-ccu1-1.xx&oh=00_AT8oiKpuO2tPH57Z_pKWDcsVjt5cfUlU71UeW_Lf5DPeJg&oe=61E2F5BE" alt="profile-small-image" className='profile-small-image' />
                             <p>Selim Hasan Riad</p>
                         </a>
                     </li>
